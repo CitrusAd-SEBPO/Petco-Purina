@@ -25,7 +25,7 @@
   }
 
 /* All the common classes that have common styles */
-.earth-animal *{
+.citrus_purina *{
     margin: 0;
     padding: 0;
     line-height: initial !important;
@@ -42,28 +42,28 @@
 }
 
 
-.earth-animal a{
+.citrus_purina a{
     text-decoration: none;
 }
 
-.earth-animal img{
+.citrus_purina img{
     width: 100%;
 }
 
-.earth-animal h1, h2, h3{
+.citrus_purina h1, h2, h3{
     font-family: "PetcoCircularTT-Bold", arial !important;
 }
 
-.earth-animal p {
+.citrus_purina p {
     font-family: "PetcoCircularTT-Regular", arial !important;
 }
 
-.earth-animal .cta-box{
+.citrus_purina .cta-box{
     width: 210px;
     margin: 0 auto;
 }
 
-.earth-animal .cta-box a{
+.citrus_purina .cta-box a{
     border-radius: 5px;
     color: #fff;
     background: #001952;
@@ -76,14 +76,14 @@
     border: 1px solid #001952;
 }
 
-.earth-animal .cta-box a:hover{
+.citrus_purina .cta-box a:hover{
     background: #fff;
     color: #001952;
     border: 1px solid #001952;
     transition: 0.5s ease-in-out;
 }
 
-.earth-animal .cta-underline{
+.citrus_purina .cta-underline{
  font-size: 16px;
  color: #001952;
  text-decoration: underline;
@@ -92,35 +92,35 @@
  cursor: pointer;
 }
 
-.earth-animal .custom-container{
+.citrus_purina .custom-container{
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.earth-animal .container-full{
+.citrus_purina .container-full{
     width: 100%;
 }
 
-.earth-animal .flex-box{
+.citrus_purina .flex-box{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
 
-.earth-animal__section-title{
+.citrus_purina__section-title{
     padding: 25px 15px;
 }
 
-.earth-animal__section-title sup{
+.citrus_purina__section-title sup{
     font-size: 16px;
 }
 
-.earth-animal .section-padding30{
+.citrus_purina .section-padding30{
     padding: 30px 0;
 }
 
-.earth-animal__section-title h2{
+.citrus_purina__section-title h2{
     text-align: center;
     font-size: 25px;
     color: #000000;
@@ -128,212 +128,56 @@
 }
 
 
-/* POV sections */
-.citrus_earth_animal_carousel{
-    overflow-x: hidden;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-}
 
-
-.citrus_earth_animal_carousel-inner{
-    display: flex;
-    transition: all ease .5s;
-    width: 100%;
-    overflow: hidden;
-    justify-content: space-between;
-    align-items: flex-end !important;
-    min-height: 315px;
-}
-
-.citrus_earth_animal_carousel-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-}
-
-.citrus_earth_animal_carousel-item .custom-container{
-    justify-content: space-between;
-}
-
-.citrus_earth_animal_carousel-item__col{
-    width: 50%;
-    justify-content: flex-start !important;
-    flex-wrap: wrap !important;
-}
-
-.citrus_earth_animal_carousel-item__col:first-child{
-    padding: 30px 0 30px 30px;
-    min-height: 290px;
-}
-
-.citrus_earth_animal__pov--text{
-    width: 100%;
-}
-
-.citrus_earth_animal__pov--text h1{
-    font-size: 35px;
-    color: #fff;
-    padding: 15px 0;
-    min-height: 100px;
-    display: flex;
-    align-items: center;
-}
-
-.citrus_earth_animal__pov--text p{
-    font-size: 16px;
-    color: #fff;
-    padding-bottom: 20px;
-    min-height: 52px;
-}
-
-.citrus_earth_animal__pov--cta {
-    width: 100%;
-    margin: initial !important;
-}
-
-.citrus_earth_animal__pov--cta a{
-    background: #fff !important;
-    color: #001952 !important;
-    border: 1px solid #fff !important;
-}
-
-.citrus_earth_animal__pov--cta a:hover{
-    background: #001952 !important;
-    color: #fff !important;
-    border: 1px solid #001952 !important;
-}
-
-.citrus_earth_animal__pov--logo{
-    max-width: 160px;
-}
-
-.citrus_earth_animal__pov--shots{
-    max-width: 500px;
-}
-
-.citrus_earth_animal_carousel-inner .pov1{
-    background-image: url("img/petco-earth-animal-pov1-dsk.jpg");
-}
-.citrus_earth_animal_carousel-inner .pov2{
-    background-image: url("img/petco-earth-animal-pov2-dsk.jpg");
-}
-.citrus_earth_animal_carousel-inner .pov3{
-    background-image: url("img/petco-earth-animal-pov3-dsk.jpg");
-}
-
-.citrus_earth_animal_carousel-controls .prev{
-    display: inline-block;
-    height: 32px;
-    width: 32px;
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    background-image: url('prev.svg');
-    background-position: center;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    opacity: .5;
-}
-
-.citrus_earth_animal_carousel-controls .next{
-    display: inline-block;
-    height: 32px;
-    width: 32px;
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    background-image: url('next.svg');
-    background-position: center;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    opacity: .5;
-}
-
-.prev:hover, .next:hover{
-    opacity: 1;
-}
-
-.citrus_earth_animal_carousel-indicators{
-    position: absolute;
-    bottom: 0;
-    left: calc(100% / 2 - 52px);
-    text-align: center;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 5px 5px 0 0;
-    padding: 10px 10px 5px;
-}
-
-.citrus_earth_animal_carousel-indicators span{
-    display: inline-block;
-    border: 2px solid #09205c;
-    padding: 7px;
-    border-radius: 20px;
-    cursor: pointer;
-    margin: 0 5px;
-}
-
-.citrus_earth_animal_carousel-indicators span.active{
-    background-color: #09205c;
-}
 
 
 /* All the custom styles */
 
 
 /* Size section */
-.earth-animal__sizes--content{
+.citrus_purina__sizes--content{
     width: 100%;
     overflow: auto;
 }
 
-.earth-animal__sizes--content .sizes__single-item{
+.citrus_purina__sizes--content .sizes__single-item{
     padding: 13px;
 }
 
-.earth-animal__sizes--content .sizes__single-item:first-child{
+.citrus_purina__sizes--content .sizes__single-item:first-child{
     padding-left: 0;
 }
 
-.earth-animal__sizes--content .sizes__single-item:last-child{
+.citrus_purina__sizes--content .sizes__single-item:last-child{
     padding-right: 0;
 }
 
-.earth-animal__sizes--content .sizes__single-item .sizes__single-item--img{
+.citrus_purina__sizes--content .sizes__single-item .sizes__single-item--img{
     max-width: 300px;
     margin: 0 auto;
     display: flex;
 }
 
-.earth-animal__sizes--content .sizes__single-item .sizes__single-item--text{
+.citrus_purina__sizes--content .sizes__single-item .sizes__single-item--text{
     padding: 40px 15px;
     background: rgba(239, 130, 34, 0.2);
     text-align: center;
 }
 
-.earth-animal__sizes--content .sizes__single-item .sizes__single-item--text h3{
+.citrus_purina__sizes--content .sizes__single-item .sizes__single-item--text h3{
     padding-bottom: 20px;
     font-size: 20px;
 }
 
-.earth-animal__sizes--content .sizes__single-item .sizes__single-item--text p{
+.citrus_purina__sizes--content .sizes__single-item .sizes__single-item--text p{
     font-size: 16px;
 }
 
-.earth-animal__sizes .sizes__description{
+.citrus_purina__sizes .sizes__description{
     padding: 20px 15px;
 }
 
-.earth-animal__sizes .sizes__description p{
+.citrus_purina__sizes .sizes__description p{
     font-size: 12px;
     color: #000;
     text-align: center;
@@ -341,88 +185,88 @@
 
 
 /* Variety proteins */
-.earth-animal .variety-proteins__content{
+.citrus_purina .variety-proteins__content{
     width: 100%;
     overflow-x: auto;
 }
 
-.earth-animal .variety-proteins__content--wrapper{
+.citrus_purina .variety-proteins__content--wrapper{
     align-items: flex-end;
 }
 
-.earth-animal .variety-proteins__single-item{
+.citrus_purina .variety-proteins__single-item{
     padding: 13px;
 }
 
-.earth-animal .variety-proteins__single-item a{
+.citrus_purina .variety-proteins__single-item a{
     display: block;
 }
 
-.earth-animal .variety-proteins__single-item--img{
+.citrus_purina .variety-proteins__single-item--img{
     max-width: 200px;
 }
 
-.earth-animal .variety-proteins__single-item--text{
+.citrus_purina .variety-proteins__single-item--text{
     text-align: center;
 }
 
-.earth-animal .variety-proteins__single-item--text h3{
+.citrus_purina .variety-proteins__single-item--text h3{
     color: #000;
     font-size: 18px;
 }
 
-.earth-animal .variety-proteins__single-item--text .cta-underline{
+.citrus_purina .variety-proteins__single-item--text .cta-underline{
     padding: 30px 0;
 }
 
 
 /* Bottom Hero */
-.earth-animal .bottom-hero{
+.citrus_purina .bottom-hero{
     background: rgba(15, 159, 170, 0.2);
     display: block;
     margin: 100px 0;
 }
 
-.earth-animal .bottom-hero__bg{
-    background-image: url("img/petco-earth-animal-bottom-hero-ingredient.png");
+.citrus_purina .bottom-hero__bg{
+    background-image: url("img/petco-citrus_purina-bottom-hero-ingredient.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
 }
 
-.earth-animal .bottom-hero__content{
+.citrus_purina .bottom-hero__content{
 
 }
 
-.earth-animal .bottom-hero__content-wrapper{
+.citrus_purina .bottom-hero__content-wrapper{
     min-height: 300px;
 }
 
-.earth-animal .bottom-hero__content-wrapper--col{
+.citrus_purina .bottom-hero__content-wrapper--col{
     position: relative;
     width: 50%;
 }
 
-.earth-animal .bottom-hero__content--img{
+.citrus_purina .bottom-hero__content--img{
     position: absolute;
     top: -223px;
     padding: 30px;
 }
 
-.earth-animal .bottom-hero__content--text{
+.citrus_purina .bottom-hero__content--text{
     text-align: center;
 }
 
-.earth-animal .bottom-hero__content--text h2{
+.citrus_purina .bottom-hero__content--text h2{
     font-size: 25px;
     color: #000000;
 }
 
-.earth-animal .bottom-hero__content--text h2 sup{
+.citrus_purina .bottom-hero__content--text h2 sup{
     font-size: 16px;
 }
 
-.earth-animal .bottom-hero__content--text p{
+.citrus_purina .bottom-hero__content--text p{
     font-size: 16px;
     color: #000000;
     padding: 20px 15px;
@@ -436,11 +280,11 @@
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
 
     /* Bottom Hero */
-    .earth-animal .bottom-hero__content-wrapper{
+    .citrus_purina .bottom-hero__content-wrapper{
         min-height: 250px;
     }
     
-    .earth-animal .bottom-hero__content--img{
+    .citrus_purina .bottom-hero__content--img{
         top: -180px;
     }
     
@@ -455,11 +299,11 @@
     }
 
     /* Bottom Hero */
-    .earth-animal .bottom-hero__content-wrapper{
+    .citrus_purina .bottom-hero__content-wrapper{
         min-height: 230px;
     }
     
-    .earth-animal .bottom-hero__content--img{
+    .citrus_purina .bottom-hero__content--img{
         top: -128px;
         padding: 0;
     }
@@ -481,11 +325,11 @@
     }
 
     /* CTA Styles */
-    .earth-animal .cta-box {
+    .citrus_purina .cta-box {
         width: 100%;
     }
 
-    .earth-animal .cta-box a{
+    .citrus_purina .cta-box a{
         text-transform: capitalize;
         text-decoration: underline;
         color: #001952 !important;
@@ -493,7 +337,7 @@
         border: none !important;
     }
 
-    .earth-animal .cta-box a:hover{
+    .citrus_purina .cta-box a:hover{
         color: #001952;
         border: none;
     }
@@ -522,13 +366,13 @@
     }
 
     .citrus_earth_animal_carousel-inner .pov1 .citrus_earth_animal_carousel-item__col:last-child{
-        background-image: url("img/petco-earth-animal-pov1-mob.jpg");
+        background-image: url("img/petco-citrus_purina-pov1-mob.jpg");
     }
     .citrus_earth_animal_carousel-inner .pov2 .citrus_earth_animal_carousel-item__col:last-child{
-        background-image: url("img/petco-earth-animal-pov2-mob.jpg");
+        background-image: url("img/petco-citrus_purina-pov2-mob.jpg");
     }
     .citrus_earth_animal_carousel-inner .pov3 .citrus_earth_animal_carousel-item__col:last-child{
-        background-image: url("img/petco-earth-animal-pov3-mob.jpg");
+        background-image: url("img/petco-citrus_purina-pov3-mob.jpg");
     }
 
     .citrus_earth_animal_carousel-inner .pov2 .citrus_earth_animal_carousel-item__col:last-child .citrus_earth_animal__pov--shots{
@@ -580,48 +424,48 @@
     }
 
     /* Size section */
-    .earth-animal__sizes--content-wrapper{
+    .citrus_purina__sizes--content-wrapper{
         overflow-x: auto;
         width: 260%;
     }
 
-    .earth-animal__sizes--content .sizes__single-item{
+    .citrus_purina__sizes--content .sizes__single-item{
         width: 70%;
     }
 
     /* Variety proteins */
-    .earth-animal .variety-proteins__content--wrapper{
+    .citrus_purina .variety-proteins__content--wrapper{
         overflow-x: auto;
         width: 245%;
     }
 
-    .earth-animal .variety-proteins__single-item{
+    .citrus_purina .variety-proteins__single-item{
         width: 40%;
     }
 
 
     /* Bottom Hero */
-    .earth-animal .bottom-hero {
+    .citrus_purina .bottom-hero {
         margin: 50px 0 30px;
     }
 
-    .earth-animal .bottom-hero__bg{
+    .citrus_purina .bottom-hero__bg{
         background-image: none;
     }
 
-    .earth-animal .bottom-hero__content-wrapper{
+    .citrus_purina .bottom-hero__content-wrapper{
         flex-wrap: wrap;
     }
 
-    .earth-animal .bottom-hero__content-wrapper--col{
+    .citrus_purina .bottom-hero__content-wrapper--col{
         width: 100%;
     }
 
-    .earth-animal .bottom-hero__content-wrapper--col:first-child{
+    .citrus_purina .bottom-hero__content-wrapper--col:first-child{
         order: 2;
     }
 
-    .earth-animal .bottom-hero__content--text {
+    .citrus_purina .bottom-hero__content--text {
         padding: 40px 15px 30px;
     }
 
@@ -629,7 +473,7 @@
         color: #001952 !important;
     }
 
-    .earth-animal .bottom-hero__content--img{
+    .citrus_purina .bottom-hero__content--img{
         padding: 0;
         position: unset;
         display: flex;

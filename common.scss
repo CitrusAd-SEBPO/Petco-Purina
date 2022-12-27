@@ -10,14 +10,6 @@ body{
     margin: 0;
     padding: 0;
 }
-/* Need to remove the body styles during handoff */
-
-.citrus_purina *{
-    margin: 0;
-    padding: 0;
-    line-height: initial !important;
-}
-
 
 /* Show hide class */
 .m-hide{
@@ -50,12 +42,14 @@ body{
 .citrus_purina {
     h1, h2, h3{
         font-family: "PetcoCircularTT-Bold", arial !important;
+        line-height: initial !important;
     }
 }
 
 .citrus_purina {
     p{
         font-family: "PetcoCircularTT-Regular", arial !important;
+        line-height: initial !important;
     }
 }
 
@@ -63,11 +57,6 @@ body{
     .cta-box{
         max-width: 300px;
         margin: 0 auto;
-    }
-}
-
-.citrus_purina{
-    .cta-box{
         a{
             border-radius: 5px;
             color: #fff;
@@ -82,6 +71,9 @@ body{
             min-width: 120px;
             margin: 0 15px;
         }
+    }
+    .cta-all-container{
+        justify-content: center !important;
     }
 }
 
@@ -151,6 +143,19 @@ body{
         text-align: center;
         font-size: 25px;
         color: #000000;
+        font-family: "PetcoCircularTT-Bold", arial !important;
+    }
+}
+
+.citrus-purina-section-title{
+    padding: 40px 15px;
+    font-family: "PetcoCircularTT Bold" !important;
+    h2{
+        font-size: 1.5rem;
+        color: #00205B;
+        text-align: center;
+        font-weight: 700;
+        line-height: initial;
         font-family: "PetcoCircularTT-Bold", arial !important;
     }
 }

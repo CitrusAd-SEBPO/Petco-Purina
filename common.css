@@ -7,13 +7,6 @@ body {
   padding: 0;
 }
 
-/* Need to remove the body styles during handoff */
-.citrus_purina * {
-  margin: 0;
-  padding: 0;
-  line-height: initial !important;
-}
-
 /* Show hide class */
 .m-hide {
   display: block;
@@ -41,10 +34,12 @@ body {
 
 .citrus_purina h1, .citrus_purina h2, .citrus_purina h3 {
   font-family: "PetcoCircularTT-Bold", arial !important;
+  line-height: initial !important;
 }
 
 .citrus_purina p {
   font-family: "PetcoCircularTT-Regular", arial !important;
+  line-height: initial !important;
 }
 
 .citrus_purina .cta-box {
@@ -65,6 +60,12 @@ body {
   border: 1px solid #001952;
   min-width: 120px;
   margin: 0 15px;
+}
+
+.citrus_purina .cta-all-container {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
 .citrus_purina a:hover .cta-box a:hover {
@@ -127,6 +128,20 @@ body {
   text-align: center;
   font-size: 25px;
   color: #000000;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+}
+
+.citrus-purina-section-title {
+  padding: 40px 15px;
+  font-family: "PetcoCircularTT Bold" !important;
+}
+
+.citrus-purina-section-title h2 {
+  font-size: 1.5rem;
+  color: #00205B;
+  text-align: center;
+  font-weight: 700;
+  line-height: initial;
   font-family: "PetcoCircularTT-Bold", arial !important;
 }
 /*# sourceMappingURL=common.css.map */
