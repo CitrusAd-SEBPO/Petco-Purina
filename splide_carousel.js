@@ -49,7 +49,7 @@
             }
         }
 
-       //Grain free tab switcher
+       //Tab Dog Puppy
        filter_tab_products("citrus_purina_dog_puppy");
 
        function filter_tab_products(c) {
