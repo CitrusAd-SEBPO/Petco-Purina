@@ -1,0 +1,197 @@
+/* Laptop */
+@media only screen and (min-width: 2560px){
+
+    // Videos
+    .citrus_purina__video_container{
+        margin: 7rem 0;
+        .citrus_purina__video_container--col{
+            .single-video{
+                iframe{
+                    min-height: 22vh;
+                }
+            }
+        }
+    }
+    
+}
+
+/* Laptop */
+@media only screen and (min-width: 1920px) and (max-width: 2559px) {
+
+    // Videos
+    .citrus_purina__video_container{
+        margin: 6rem 0;
+        .citrus_purina__video_container--col{
+            .single-video{
+                iframe{
+                    margin-top: -20%;
+                }
+            }
+        }
+    }
+    
+}
+
+/* Laptop */
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+
+    
+}
+
+/* Laptop */
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+
+    
+}
+
+/* Medium devices */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    // Videos
+    .citrus_purina__video_container{
+        .citrus_purina__video_container--col{
+            .single-video{
+                iframe{
+                    min-height: 36vh;
+                }
+            }
+            .video-text{
+                padding: 3rem 0;
+            }
+        }
+    }
+    
+}
+
+/* Tab devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    // Videos
+    .citrus_purina__video_container{
+        .citrus_purina__video_container--col{
+            .single-video{
+                iframe{
+                    min-height: 28vh;
+                }
+            }
+            .video-text{
+                padding: 1.5rem 0;
+                p{
+                    padding: 15px;
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+/* Mobile devices */
+@media only screen and (max-width: 767px){
+
+    /* Show hide class */
+    .m-hide{
+        display: none;
+    }
+
+    .d-hide{
+        display: block;
+    }
+
+
+    // Common styls
+    .citrus_purina{
+        .cta-box{
+            a{
+                background: none;
+                color: #00205B;
+                text-transform: capitalize;
+                text-decoration: underline !important;
+                border: none;
+            }
+        }
+        .cta-all-container{
+            a{
+                background: none;
+                color: #00205B;
+                text-transform: capitalize;
+                text-decoration: underline !important;
+                border: none;
+            }
+        }
+    }
+
+
+    // Carousels
+    .citrus-purina-main-tab-content{
+        .citrus-purina-wrapper{
+            overflow: hidden;
+            .citrus-purina-tab__btn {
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-start;
+                overflow-y: auto;
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                .citrus_purina_tab_btn_single{
+                    min-width: 195px;
+                }
+            }
+            
+        }
+    }
+
+    .citrus_purina_tab_btn_single{
+        border-bottom: 8px solid #fff;
+    }
+
+
+
+    // Videos
+    .citrus_purina__video_container{
+        flex-wrap: wrap !important;
+        .citrus_purina__video_container--col{
+            width: 100%;
+            .single-video{
+                max-width: 100%;
+                padding: 0 15px;
+                iframe{
+                    min-height: 34vh;
+                    margin-top: 0;
+                }
+            }
+            .video-text{
+                padding: 3rem 15px;
+                p{
+                    padding: 15px;
+                }
+            }
+        }
+    }
+
+    .citrus_purina__video1{
+        .citrus_purina__video_container--col:nth-child(1){
+            order: 2;
+        }
+    }
+
+
+    // Packages
+    .citrus_purina__packages{
+        overflow: hidden;
+        .citrus_purina__packages_wrapper{
+            overflow-x: auto;
+            .citrus_purina__packages_wrapper--single-package{
+                margin: 16px;
+                min-width: 60%;
+            }
+        }
+    }
+
+
+
+}

@@ -21,6 +21,10 @@ body {
   margin: 0 auto;
 }
 
+.citrus_purina .citrus-purina-section-title h2 sup {
+  font-size: 16px;
+}
+
 .citrus_purina a {
   text-decoration: none;
 }

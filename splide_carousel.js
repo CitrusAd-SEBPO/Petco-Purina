@@ -40,7 +40,7 @@
                             perPage: 5,
                         },
                         1440: {
-                            perPage: 5,
+                            perPage: 6,
                         }
                     }
                 }

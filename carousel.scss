@@ -1,5 +1,5 @@
 .citrus-purina-cta-box-tab{
-    width: 12rem;
+    min-width: 211px;
     border-radius: 0.25rem;
     background-color: #001952;
     padding: 1rem;
@@ -45,7 +45,6 @@
 }
 
 .citrus_purina_dog_tab_item {
-    float: left;
     display: none;
 }
 
@@ -114,7 +113,6 @@ button {
 .citrus_purina_tab_item {
     // max-width: 190px;
     // width: 100% !important;
-    margin: 0px 9px;
     .single-tab-text{
         p{
             font-size: 13px;
