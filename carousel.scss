@@ -1,5 +1,5 @@
 .citrus-purina-cta-box-tab{
-    width: 14rem;
+    width: 12rem;
     border-radius: 0.25rem;
     background-color: #001952;
     padding: 1rem;
@@ -8,11 +8,13 @@
     font-family: "PetcoCircularTT-Bold", arial !important;
     margin-top: 3rem;
     text-transform: uppercase;
+    border: 1px solid #001952;
 }
 
 .citrus-purina-cta-box-tab:hover{
     color: #001952;
     background: #fff;
+    border: 1px solid #001952;
 }
 
 /* Products Tabs */
@@ -113,6 +115,13 @@ button {
     // max-width: 190px;
     // width: 100% !important;
     margin: 0px 9px;
+    .single-tab-text{
+        p{
+            font-size: 13px;
+            line-height: 18px !important;
+            padding: 20px 0;
+        }
+    }
 }
 
 .citrus-inner-img22 {

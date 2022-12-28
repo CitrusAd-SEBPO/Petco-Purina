@@ -28,7 +28,6 @@
 }
 
 .citrus_purina_tab_item {
-  text-transform: uppercase;
   padding: 12px 20px;
   margin: 0px 10px;
   font-size: 14px;
@@ -79,7 +78,7 @@ button {
 }
 
 .citrus_purina_tab_item {
-  max-width: 190px;
+  max-width: 210px;
   width: 100% !important;
   margin: 0px 9px;
 }

@@ -35,11 +35,15 @@ body {
 .citrus_purina h1, .citrus_purina h2, .citrus_purina h3 {
   font-family: "PetcoCircularTT-Bold", arial !important;
   line-height: initial !important;
+  margin: 0;
 }
 
 .citrus_purina p {
   font-family: "PetcoCircularTT-Regular", arial !important;
   line-height: initial !important;
+  font-size: 13px;
+  color: #333333;
+  margin: 0;
 }
 
 .citrus_purina .cta-box {
@@ -85,6 +89,15 @@ body {
 }
 
 .citrus_purina .cta-underline {
+  font-size: 16px;
+  color: #001952;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  cursor: pointer;
+}
+
+.citrus_purina .cta-underline a {
   font-size: 16px;
   color: #001952;
   text-decoration: underline;

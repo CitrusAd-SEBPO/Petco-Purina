@@ -43,6 +43,7 @@ body{
     h1, h2, h3{
         font-family: "PetcoCircularTT-Bold", arial !important;
         line-height: initial !important;
+        margin: 0;
     }
 }
 
@@ -50,6 +51,9 @@ body{
     p{
         font-family: "PetcoCircularTT-Regular", arial !important;
         line-height: initial !important;
+        font-size: 13px;
+        color: #333333;
+        margin: 0;
     }
 }
 
@@ -102,6 +106,14 @@ body{
         text-transform: capitalize;
         font-family: "PetcoCircularTT-Bold", arial !important;
         cursor: pointer;
+        a{
+            font-size: 16px;
+            color: #001952;
+            text-decoration: underline;
+            text-transform: capitalize;
+            font-family: "PetcoCircularTT-Bold", arial !important;
+            cursor: pointer;
+        }
     }
 }
 
