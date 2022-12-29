@@ -53,11 +53,11 @@
 
    function filter_tab_products(c) {
        var x, i;
-       x = document.getElementsByClassName("citrus_purina_dog_tab_item");
+       x = document.getElementsByClassName("citrus_purina_cat_tab_item");
        if (c == "all") c = "";
        for (i = 0; i < x.length; i++) {
-           RemoveClassBestDog(x[i], "citrusTabshow");
-           if (x[i].className.indexOf(c) > -1) AddClassDogBest(x[i], "citrusTabshow");
+           RemoveClassBestDog(x[i], "citrusNTabshow");
+           if (x[i].className.indexOf(c) > -1) AddClassDogBest(x[i], "citrusNTabshow");
        }
    }
 
