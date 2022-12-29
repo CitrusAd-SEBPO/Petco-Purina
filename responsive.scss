@@ -121,7 +121,7 @@
     .citrus_purina{
         .cta-box{
             a{
-                background: none;
+                background: none !important;
                 color: #00205B;
                 text-transform: capitalize;
                 text-decoration: underline !important;
@@ -142,40 +142,53 @@
 
     // POV styles
     .citrus_purina_carousel-inner{
+        background: #000000;
         .citrus_purina_carousel-item{
+            .custom-container{
+                min-width: 100%;
+                flex-wrap: wrap;
+            }
             .citrus_purina_carousel-item__col{
-                min-width: 50%;
-                max-width: 50%;
+                min-width: calc(100% / 3);
+                max-width: calc(100% / 3);
+                &:nth-child(4){
+                    min-width: 100%;
+                    max-width: 100%;
+                    background: #000000;
+                    h1{
+                        color: #fff;
+                        font-size: 25px;
+                        padding: 20px 0 15px;
+                    }
+                    p{
+                        color: #fff;
+                        padding: 0 20px 15px;
+                    }
+                }
+                .citrus_purina__pov--cta{
+                    padding: 0 0 60px;
+                    a{
+                        color: #fff !important;
+                        border: none !important;
+                        min-width: auto;
+                        margin: 0 15px;
+                        padding: 0;
+                    }
+                }
             }
             
         }
         .pov1{
-            background-image: url("img/citrus-purina-hero1-bg-mob.jpg");
+            // background-image: url("img/citrus-purina-hero1-bg-mob.jpg");
             display: flex;
-            
             flex-wrap: wrap;
-            .citrus_purina_carousel-item__col{
-                
-                &:nth-child(2){
-                    order: 3;
-                    min-width: 100%;
-                    max-width: 100%;
-                }
-            }
         }
         .pov2{
-            background-image: url("img/citrus-purina-hero2-bg-mob.jpg");
-            .citrus_purina_carousel-item__col{
-
-            }
-            .custom-container{
-                min-width: 100%;
-            }
+            // background-image: url("img/citrus-purina-hero2-bg-mob.jpg");
         }
         .pov3{
-            background-image: url("img/citrus-purina-hero3-bg-mob.jpg");
-            .citrus_purina_carousel-item__col{
-            }
+            // background-image: url("img/citrus-purina-hero3-bg-mob.jpg");
+
             .custom-container{
                 min-width: 100%;
             }
