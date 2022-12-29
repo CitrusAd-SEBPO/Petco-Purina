@@ -47,6 +47,23 @@
 /* Medium devices */
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
 
+    // POV
+    .citrus_purina__pov--text{
+        h1{
+            font-size: 26px;
+            line-height: 33px !important;
+            padding: 15px 0 10px;
+        }
+    }
+
+    .citrus_purina__pov--logo {
+        max-width: 100px;
+    }
+
+    .citrus_purina__pov--text p {
+        padding-bottom: 15px;
+    }
+
     // Videos
     .citrus_purina__video_container{
         .citrus_purina__video_container--col{
@@ -56,7 +73,7 @@
                 }
             }
             .video-text{
-                padding: 3rem 0;
+                padding: 2rem 0;
             }
         }
     }
@@ -119,6 +136,52 @@
                 text-decoration: underline !important;
                 border: none;
             }
+        }
+    }
+
+
+    // POV styles
+    .citrus_purina_carousel-inner{
+        .citrus_purina_carousel-item{
+            .citrus_purina_carousel-item__col{
+                min-width: 50%;
+                max-width: 50%;
+            }
+            
+        }
+        .pov1{
+            background-image: url("img/citrus-purina-hero1-bg-mob.jpg");
+            display: flex;
+            
+            flex-wrap: wrap;
+            .citrus_purina_carousel-item__col{
+                
+                &:nth-child(2){
+                    order: 3;
+                    min-width: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+        .pov2{
+            background-image: url("img/citrus-purina-hero2-bg-mob.jpg");
+            .citrus_purina_carousel-item__col{
+
+            }
+            .custom-container{
+                min-width: 100%;
+            }
+        }
+        .pov3{
+            background-image: url("img/citrus-purina-hero3-bg-mob.jpg");
+            .citrus_purina_carousel-item__col{
+            }
+            .custom-container{
+                min-width: 100%;
+            }
+        }
+        .citrus_purina__pov--logo{
+            max-width: 100px;
         }
     }
 

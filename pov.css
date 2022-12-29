@@ -79,14 +79,23 @@
 }
 
 .citrus_purina__pov--cta {
-  width: 100%;
-  margin: 0 auto;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
 .citrus_purina__pov--cta a {
   background: #fff !important;
   color: #001952 !important;
   border: 1px solid #fff !important;
+  max-width: 150px;
+  margin: 0 15px;
 }
 
 .citrus_purina__pov--cta a:hover {

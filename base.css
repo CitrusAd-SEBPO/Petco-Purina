@@ -243,14 +243,23 @@ body {
 }
 
 .citrus_purina__pov--cta {
-  width: 100%;
-  margin: 0 auto;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
 .citrus_purina__pov--cta a {
   background: #fff !important;
   color: #001952 !important;
   border: 1px solid #fff !important;
+  max-width: 150px;
+  margin: 0 15px;
 }
 
 .citrus_purina__pov--cta a:hover {
@@ -1161,7 +1170,7 @@ button {
 
 .citrus_purina__video_container .citrus_purina__video_container--col .video-text {
   text-align: center;
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 
 .citrus_purina__video_container .citrus_purina__video_container--col .video-text h3 {
@@ -1238,11 +1247,22 @@ button {
 /* Laptop */
 /* Medium devices */
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .citrus_purina__pov--text h1 {
+    font-size: 26px;
+    line-height: 33px !important;
+    padding: 15px 0 10px;
+  }
+  .citrus_purina__pov--logo {
+    max-width: 100px;
+  }
+  .citrus_purina__pov--text p {
+    padding-bottom: 15px;
+  }
   .citrus_purina__video_container .citrus_purina__video_container--col .single-video iframe {
     min-height: 36vh;
   }
   .citrus_purina__video_container .citrus_purina__video_container--col .video-text {
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
 }
 
@@ -1281,6 +1301,40 @@ button {
     text-transform: capitalize;
     text-decoration: underline !important;
     border: none;
+  }
+  .citrus_purina_carousel-inner .citrus_purina_carousel-item .citrus_purina_carousel-item__col {
+    min-width: 50%;
+    max-width: 50%;
+  }
+  .citrus_purina_carousel-inner .pov1 {
+    background-image: url("img/citrus-purina-hero1-bg-mob.jpg");
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .citrus_purina_carousel-inner .pov1 .citrus_purina_carousel-item__col:nth-child(2) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .citrus_purina_carousel-inner .pov2 {
+    background-image: url("img/citrus-purina-hero2-bg-mob.jpg");
+  }
+  .citrus_purina_carousel-inner .pov2 .custom-container {
+    min-width: 100%;
+  }
+  .citrus_purina_carousel-inner .pov3 {
+    background-image: url("img/citrus-purina-hero3-bg-mob.jpg");
+  }
+  .citrus_purina_carousel-inner .pov3 .custom-container {
+    min-width: 100%;
+  }
+  .citrus_purina_carousel-inner .citrus_purina__pov--logo {
+    max-width: 100px;
   }
   .citrus-purina-main-tab-content .citrus-purina-wrapper {
     overflow: hidden;
