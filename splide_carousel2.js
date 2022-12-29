@@ -3,94 +3,94 @@
 
 
 
-    //Citrus Tab js
-    var splides = document.querySelectorAll('.citrus_purina_tab_controls_cat');
-    if (splides.length) {
-        for (var i = 0; i < splides.length; i++) {
-            var splideElement = splides[i];
-            var splideDefaultOptions =
-            {
-                rewind: true,
-                type: 'slide',
-                autoplay: false,
-                rewindSpeed: 500,
-                speed: 500,
-                pauseOnHover: true,
-                perPage: 6,
-                perMove: 2,
-                width: '100%',
-                breakpoints: {
-                    375: {
-                        perPage: 2,
-                    },
-                    576: {
-                        perPage: 2,
-                    },
-                    991: {
-                        perPage: 3,
-                    },
-                    992: {
-                        perPage: 4,
-                    },
-                    1024: {
-                        perPage: 5,
-                    },
-                    1200: {
-                        perPage: 5,
-                    },
-                    1440: {
-                        perPage: 6,
-                    }
-                }
-            }
+     //Citrus Tab js
+     var splides = document.querySelectorAll('.citrus_purina_tab_controls_cat');
+     if (splides.length) {
+         for (var i = 0; i < splides.length; i++) {
+             var splideElement = splides[i];
+             var splideDefaultOptions =
+             {
+                 rewind: true,
+                 type: 'slide',
+                 autoplay: false,
+                 rewindSpeed: 500,
+                 speed: 500,
+                 pauseOnHover: true,
+                 perPage: 6,
+                 perMove: 2,
+                 width: '100%',
+                 breakpoints: {
+                     375: {
+                         perPage: 2,
+                     },
+                     576: {
+                         perPage: 2,
+                     },
+                     991: {
+                         perPage: 3,
+                     },
+                     992: {
+                         perPage: 4,
+                     },
+                     1024: {
+                         perPage: 5,
+                     },
+                     1200: {
+                         perPage: 5,
+                     },
+                     1440: {
+                         perPage: 6,
+                     }
+                 }
+             }
+ 
+             new Splide(splideElement, splideDefaultOptions).mount();
+         }
+     }
 
-            new Splide(splideElement, splideDefaultOptions).mount();
+    //Tab Cat Section
+    filter_tab_products_cat("citrus_purina_cat_kitten");
+
+    function filter_tab_products_cat(c) {
+        var x, i;
+        x = document.getElementsByClassName("citrus_purina_cat_tab_item");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+            RemoveClassBestDog(x[i], "citrusTabshow");
+            if (x[i].className.indexOf(c) > -1) AddClassDogBest(x[i], "citrusTabshow");
         }
     }
 
-   //Tab Dog Puppy
-   filter_tab_products("citrus_purina_cat_kitten");
+    function AddClassDogBest(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {
+                element.className += " " + arr2[i];
+            }
+        }
+    }
 
-   function filter_tab_products(c) {
-       var x, i;
-       x = document.getElementsByClassName("citrus_purina_cat_tab_item");
-       if (c == "all") c = "";
-       for (i = 0; i < x.length; i++) {
-           RemoveClassBestDog(x[i], "citrusNTabshow");
-           if (x[i].className.indexOf(c) > -1) AddClassDogBest(x[i], "citrusNTabshow");
-       }
-   }
+    function RemoveClassBestDog(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+        }
+        element.className = arr1.join(" ");
+    }
 
-   function AddClassDogBest(element, name) {
-       var i, arr1, arr2;
-       arr1 = element.className.split(" ");
-       arr2 = name.split(" ");
-       for (i = 0; i < arr2.length; i++) {
-           if (arr1.indexOf(arr2[i]) == -1) {
-               element.className += " " + arr2[i];
-           }
-       }
-   }
-
-   function RemoveClassBestDog(element, name) {
-       var i, arr1, arr2;
-       arr1 = element.className.split(" ");
-       arr2 = name.split(" ");
-       for (i = 0; i < arr2.length; i++) {
-           while (arr1.indexOf(arr2[i]) > -1) {
-               arr1.splice(arr1.indexOf(arr2[i]), 1);
-           }
-       }
-       element.className = arr1.join(" ");
-   }
-
-   // Add active class to the current button
-   var dogBtnContainer = document.getElementById("citrus_purina_tab__btn");
-   var dogBestbtns = dogBtnContainer.getElementsByClassName("citrus_purina_tab_btn_single");
-   for (var i = 0; i < dogBestbtns.length; i++) {
-       dogBestbtns[i].addEventListener("click", function () {
-           var current = document.getElementsByClassName("citrus_purina_tab_btn_single_active");
-           current[0].className = current[0].className.replace(" citrus_purina_tab_btn_single_active", "");
-           this.className += " citrus_purina_tab_btn_single_active";
-       });
-   }
+    // Add active class to the current button
+    var dogBtnContainer = document.getElementById("citrus_purina_tab__btn");
+    var dogBestbtns = dogBtnContainer.getElementsByClassName("citrus_purina_tab_btn_single");
+    for (var i = 0; i < dogBestbtns.length; i++) {
+        dogBestbtns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("citrus_purina_tab_btn_single_active");
+            current[0].className = current[0].className.replace(" citrus_purina_tab_btn_single_active", "");
+            this.className += " citrus_purina_tab_btn_single_active";
+        });
+    }

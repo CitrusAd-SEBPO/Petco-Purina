@@ -392,15 +392,6 @@ body {
   margin: 0 auto;
 }
 
-.citrus_purina_grain_div.citrusTabshow {
-  display: block;
-}
-
-.citrus_purina_grain_div {
-  float: left;
-  display: none;
-}
-
 .citrus_purina_tab {
   padding-bottom: 40px;
 }
@@ -1141,7 +1132,7 @@ button {
   z-index: 1;
 }
 
-.citrus_purina_cat_tab_item.citrusNTabshow {
+.citrus_purina_cat_tab_item.citrusTabshow {
   display: block;
 }
 

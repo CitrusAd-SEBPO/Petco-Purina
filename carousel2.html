@@ -25,14 +25,14 @@
                     <div class="citrus-purina-wrapper">
                         <div id="citrus_purina_tab__btn" class="citrus-purina-tab__btn">
                             <button class="citrus_purina_tab_btn_single citrus_purina_tab_btn_single_active"
-                                onclick="filter_tab_products('citrus_purina_cat_kitten')">KITTEN DEVELOPMENT </button>
+                                onclick="filter_tab_products_cat('citrus_purina_cat_kitten')">KITTEN DEVELOPMENT </button>
                             <button class="citrus_purina_tab_btn_single"
-                                onclick="filter_tab_products('citrus_purina_cat_adult')">ADULT ESSENTIALS AND SENIOR ADULT 7+ </button>
+                                onclick="filter_tab_products_cat('citrus_purina_cat_adult')">ADULT ESSENTIALS AND SENIOR ADULT 7+ </button>
                                 <button class="citrus_purina_tab_btn_single"
-                                onclick="filter_tab_products('citrus_purina_cat_live')">LIVECLEAR™ </button>
+                                onclick="filter_tab_products_cat('citrus_purina_cat_live')">LIVECLEAR™ </button>
                                 
                                 <button class="citrus_purina_tab_btn_single"
-                                onclick="filter_tab_products('citrus_purina_cat_specialized')">SPECIALIZED</button>
+                                onclick="filter_tab_products_cat('citrus_purina_cat_specialized')">SPECIALIZED</button>
                         </div>
                     </div>
                     <!-- tab button -->
@@ -201,7 +201,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Cat Puppy row 1 -->
+                        <!-- Cat row 1 -->
 
                         <!-- Cat Adult row 2  -->
                         <div class="citrus_purina_tab_wrapper citrus_purina_tab_wrapper_hide_arrow splide citrus_purina_tab_controls_cat">
@@ -835,9 +835,9 @@
         }
 
        //Tab Dog Puppy
-       filter_tab_products("citrus_purina_cat_kitten");
+       filter_tab_products_cat("citrus_purina_cat_kitten");
 
-       function filter_tab_products(c) {
+       function filter_tab_products_cat(c) {
            var x, i;
            x = document.getElementsByClassName("citrus_purina_cat_tab_item");
            if (c == "all") c = "";
