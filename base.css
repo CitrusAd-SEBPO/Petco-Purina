@@ -1334,6 +1334,10 @@ button {
     margin: 0 15px;
     padding: 0;
   }
+  .citrus_purina_carousel-inner .citrus_purina_carousel-item .citrus_purina_carousel-item__col .citrus_purina__pov--text h1, .citrus_purina_carousel-inner .citrus_purina_carousel-item .citrus_purina_carousel-item__col .citrus_purina__pov--text p {
+    max-width: 350px;
+    margin: 0 auto;
+  }
   .citrus_purina_carousel-inner .pov1 {
     background-image: url("img/citrus-purina-hero1-bg-mob.jpg");
     display: -webkit-box;
