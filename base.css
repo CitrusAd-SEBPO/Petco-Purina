@@ -10,10 +10,12 @@ body {
 /* Show hide class */
 .m-hide {
   display: block;
+  width: 100%;
 }
 
 .d-hide {
   display: none;
+  width: 100%;
 }
 
 .citrus_purina {
@@ -155,7 +157,7 @@ body {
 
 .citrus-purina-section-title h2 {
   font-size: 1.5rem;
-  color: #00205B;
+  color: #000000;
   text-align: center;
   font-weight: 700;
   line-height: initial;
@@ -1333,11 +1335,15 @@ button {
     padding: 0;
   }
   .citrus_purina_carousel-inner .pov1 {
+    background-image: url("img/citrus-purina-hero1-bg-mob.jpg");
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .citrus_purina_carousel-inner .pov2 {
+    background-image: url("img/citrus-purina-hero2-bg-mob.jpg");
   }
   .citrus_purina_carousel-inner .pov3 .custom-container {
     min-width: 100%;

@@ -14,10 +14,12 @@ body{
 /* Show hide class */
 .m-hide{
     display: block;
+    width: 100%;
 }
 
 .d-hide{
     display: none;
+    width: 100%;
 }
 
 .citrus_purina{
@@ -171,7 +173,7 @@ body{
     font-family: "PetcoCircularTT Bold" !important;
     h2{
         font-size: 1.5rem;
-        color: #00205B;
+        color: #000000;
         text-align: center;
         font-weight: 700;
         line-height: initial;
