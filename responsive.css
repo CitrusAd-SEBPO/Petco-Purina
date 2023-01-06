@@ -4,7 +4,7 @@
     margin: 7rem 0;
   }
   .citrus_purina__video_container .citrus_purina__video_container--col .single-video iframe {
-    min-height: 22vh;
+    min-height: 30vh;
   }
 }
 
@@ -20,21 +20,30 @@
 
 /* Laptop */
 /* Laptop */
+@media only screen and (min-width: 1280px) {
+  .citrus_purina .cta-box a {
+    padding: 17px;
+    min-width: 211px;
+  }
+}
+
 /* Medium devices */
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
   .citrus_purina__pov--text h1 {
     font-size: 24px;
     padding: 15px 0 10px;
+    max-width: 350px;
+    margin: 0 auto;
   }
   .citrus_purina__pov--logo {
-    max-width: 90px;
+    max-width: 100px;
   }
   .citrus_purina__pov--text p {
     padding-bottom: 15px;
     font-size: 14px;
   }
   .citrus_purina__video_container .citrus_purina__video_container--col .single-video iframe {
-    min-height: 36vh;
+    min-height: 30vh;
   }
   .citrus_purina__video_container .citrus_purina__video_container--col .video-text {
     padding: 2rem 0;
@@ -43,8 +52,27 @@
 
 /* Tab devices */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .citrus_purina_carousel-inner {
+    min-height: auto;
+  }
+  .citrus_purina__pov--text h1 {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 21px;
+    padding: 10px 0;
+  }
+  .citrus_purina__pov--text p {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .citrus_purina__pov--logo {
+    max-width: 90px;
+  }
+  .citrus_purina_carousel-indicators {
+    display: none;
+  }
   .citrus_purina__video_container .citrus_purina__video_container--col .single-video iframe {
-    min-height: 28vh;
+    min-height: 26vh;
   }
   .citrus_purina__video_container .citrus_purina__video_container--col .video-text {
     padding: 1.5rem 0;
@@ -128,6 +156,9 @@
   .citrus_purina_carousel-inner .pov2 {
     background-image: url("img/citrus-purina-hero2-bg-mob.jpg");
   }
+  .citrus_purina_carousel-inner .pov3 {
+    background-image: url("img/citrus-purina-hero3-bg-mob.jpg");
+  }
   .citrus_purina_carousel-inner .pov3 .custom-container {
     min-width: 100%;
   }
@@ -174,7 +205,7 @@
     padding: 0 15px;
   }
   .citrus_purina__video_container .citrus_purina__video_container--col .single-video iframe {
-    min-height: 34vh;
+    min-height: 30vh;
     margin-top: 0;
   }
   .citrus_purina__video_container .citrus_purina__video_container--col .video-text {

@@ -101,6 +101,7 @@ body {
   text-transform: capitalize;
   font-family: "PetcoCircularTT-Bold", arial !important;
   cursor: pointer;
+  text-align: left;
 }
 
 .citrus_purina .cta-underline a {
