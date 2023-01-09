@@ -20,6 +20,7 @@
                     perPage: 6,
                     perMove: 2,
                     width: '100%',
+                    focus  : 'center',
                     breakpoints: {
                         375: {
                             perPage: 2,

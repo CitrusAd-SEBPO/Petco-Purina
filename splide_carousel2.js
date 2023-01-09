@@ -85,12 +85,12 @@
     }
 
     // Add active class to the current button
-    var dogBtnContainer = document.getElementById("citrus_purina_tab__btn");
-    var dogBestbtns = dogBtnContainer.getElementsByClassName("citrus_purina_tab_btn_single");
+    var dogBtnContainer = document.getElementById("citrus_purina_tab__btn2");
+    var dogBestbtns = dogBtnContainer.getElementsByClassName("citrus_purina_tab_btn2_single");
     for (var i = 0; i < dogBestbtns.length; i++) {
         dogBestbtns[i].addEventListener("click", function () {
-            var current = document.getElementsByClassName("citrus_purina_tab_btn_single_active");
-            current[0].className = current[0].className.replace(" citrus_purina_tab_btn_single_active", "");
-            this.className += " citrus_purina_tab_btn_single_active";
+            var current = document.getElementsByClassName("citrus_purina_tab_btn2_single_active");
+            current[0].className = current[0].className.replace(" citrus_purina_tab_btn2_single_active", "");
+            this.className += " citrus_purina_tab_btn2_single_active";
         });
     }

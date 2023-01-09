@@ -61,7 +61,7 @@ body {
   border-radius: 5px;
   color: #fff;
   background: #001952;
-  padding: 15px;
+  padding: 15px 0;
   display: block;
   text-align: center;
   font-family: "PetcoCircularTT-Bold", arial !important;
@@ -914,7 +914,7 @@ button {
   min-width: 211px;
   border-radius: 0.25rem;
   background-color: #001952;
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: center;
   color: #fff;
   font-family: "PetcoCircularTT-Bold", arial !important;
@@ -962,7 +962,8 @@ button {
   display: block;
 }
 
-.citrus_purina_tab_btn_single {
+.citrus_purina_tab_btn_single,
+.citrus_purina_tab_btn2_single {
   text-transform: uppercase;
   padding: 0 20px 12px;
   margin: 0px 10px;
@@ -983,13 +984,15 @@ button {
   font-family: "PetcoCircularTT-Regular", arial !important;
 }
 
-.citrus_purina_tab_btn_single.citrus_purina_tab_btn_single_active {
+.citrus_purina_tab_btn_single.citrus_purina_tab_btn_single_active,
+.citrus_purina_tab_btn2_single.citrus_purina_tab_btn2_single_active {
   color: #001952;
   border-bottom: 8px solid #001952;
   border-radius: unset;
 }
 
-.citrus-purina-tab__btn {
+.citrus-purina-tab__btn,
+.citrus-purina-tab__btn2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1064,6 +1067,7 @@ button {
 
 .citrus_purina_tab_controls .splide__arrow--prev {
   left: 2px;
+  opacity: 0 !important;
 }
 
 .citrus_purina_tab_controls .splide__arrow svg {
@@ -1113,6 +1117,7 @@ button {
 
 .citrus_purina_tab_controls_cat .splide__arrow--prev {
   left: 2px;
+  opacity: 0 !important;
 }
 
 .citrus_purina_tab_controls_cat .splide__arrow svg {
@@ -1251,10 +1256,22 @@ button {
 
 /* Laptop */
 /* Laptop */
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1024px) {
   .citrus_purina .cta-box a {
-    padding: 17px;
-    min-width: 211px;
+    padding: 17px 0;
+    min-width: 209px;
+    max-width: 209px;
+    height: 54px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1399,7 +1416,8 @@ button {
   .citrus-purina-main-tab-content .citrus-purina-wrapper {
     overflow: hidden;
   }
-  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn {
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn,
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1415,13 +1433,18 @@ button {
     scrollbar-width: none;
     /* Firefox */
   }
-  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn::-webkit-scrollbar {
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn::-webkit-scrollbar,
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn2::-webkit-scrollbar {
     display: none;
   }
-  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn .citrus_purina_tab_btn_single {
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn .citrus_purina_tab_btn_single,
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn .citrus_purina_tab_btn2_single,
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn2 .citrus_purina_tab_btn_single,
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn2 .citrus_purina_tab_btn2_single {
     min-width: 195px;
   }
-  .citrus_purina_tab_btn_single {
+  .citrus_purina_tab_btn_single,
+  citrus_purina_tab_btn2_single {
     border-bottom: 8px solid #fff;
   }
   .citrus_purina__video_container {

@@ -2,7 +2,7 @@
   min-width: 211px;
   border-radius: 0.25rem;
   background-color: #001952;
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: center;
   color: #fff;
   font-family: "PetcoCircularTT-Bold", arial !important;
@@ -50,7 +50,8 @@
   display: block;
 }
 
-.citrus_purina_tab_btn_single {
+.citrus_purina_tab_btn_single,
+.citrus_purina_tab_btn2_single {
   text-transform: uppercase;
   padding: 0 20px 12px;
   margin: 0px 10px;
@@ -71,13 +72,15 @@ button {
   font-family: "PetcoCircularTT-Regular", arial !important;
 }
 
-.citrus_purina_tab_btn_single.citrus_purina_tab_btn_single_active {
+.citrus_purina_tab_btn_single.citrus_purina_tab_btn_single_active,
+.citrus_purina_tab_btn2_single.citrus_purina_tab_btn2_single_active {
   color: #001952;
   border-bottom: 8px solid #001952;
   border-radius: unset;
 }
 
-.citrus-purina-tab__btn {
+.citrus-purina-tab__btn,
+.citrus-purina-tab__btn2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,6 +155,7 @@ button {
 
 .citrus_purina_tab_controls .splide__arrow--prev {
   left: 2px;
+  opacity: 0 !important;
 }
 
 .citrus_purina_tab_controls .splide__arrow svg {

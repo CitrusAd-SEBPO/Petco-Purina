@@ -16,6 +16,7 @@
 
 .citrus_purina_tab_controls_cat .splide__arrow--prev {
   left: 2px;
+  opacity: 0 !important;
 }
 
 .citrus_purina_tab_controls_cat .splide__arrow svg {

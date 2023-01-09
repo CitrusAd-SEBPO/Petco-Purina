@@ -20,10 +20,22 @@
 
 /* Laptop */
 /* Laptop */
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1024px) {
   .citrus_purina .cta-box a {
-    padding: 17px;
-    min-width: 211px;
+    padding: 17px 0;
+    min-width: 209px;
+    max-width: 209px;
+    height: 54px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -168,7 +180,8 @@
   .citrus-purina-main-tab-content .citrus-purina-wrapper {
     overflow: hidden;
   }
-  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn {
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn,
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -184,13 +197,18 @@
     scrollbar-width: none;
     /* Firefox */
   }
-  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn::-webkit-scrollbar {
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn::-webkit-scrollbar,
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn2::-webkit-scrollbar {
     display: none;
   }
-  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn .citrus_purina_tab_btn_single {
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn .citrus_purina_tab_btn_single,
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn .citrus_purina_tab_btn2_single,
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn2 .citrus_purina_tab_btn_single,
+  .citrus-purina-main-tab-content .citrus-purina-wrapper .citrus-purina-tab__btn2 .citrus_purina_tab_btn2_single {
     min-width: 195px;
   }
-  .citrus_purina_tab_btn_single {
+  .citrus_purina_tab_btn_single,
+  citrus_purina_tab_btn2_single {
     border-bottom: 8px solid #fff;
   }
   .citrus_purina__video_container {

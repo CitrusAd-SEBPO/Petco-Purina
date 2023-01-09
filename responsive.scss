@@ -44,12 +44,18 @@
     
 }
 
-@media only screen and (min-width: 1280px){
+@media only screen and (min-width: 1024px){
     .citrus_purina {
         .cta-box{
             a{
-                padding: 17px;
-                min-width: 211px;
+                padding: 17px 0;
+                min-width: 209px;
+                max-width: 209px;
+                height: 54px;
+                display: flex;
+                align-items: center;
+                padding: 0;
+                justify-content: center;
             }
         }
     }
@@ -253,7 +259,8 @@
     .citrus-purina-main-tab-content{
         .citrus-purina-wrapper{
             overflow: hidden;
-            .citrus-purina-tab__btn {
+            .citrus-purina-tab__btn,
+            .citrus-purina-tab__btn2 {
                 display: flex;
                 align-items: flex-end;
                 justify-content: flex-start;
@@ -263,7 +270,8 @@
                 &::-webkit-scrollbar {
                     display: none;
                 }
-                .citrus_purina_tab_btn_single{
+                .citrus_purina_tab_btn_single,
+                .citrus_purina_tab_btn2_single{
                     min-width: 195px;
                 }
             }
@@ -271,7 +279,8 @@
         }
     }
 
-    .citrus_purina_tab_btn_single{
+    .citrus_purina_tab_btn_single,
+    citrus_purina_tab_btn2_single{
         border-bottom: 8px solid #fff;
     }
 
