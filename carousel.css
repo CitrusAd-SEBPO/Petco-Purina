@@ -166,14 +166,14 @@ button {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
-  background: transparent;
+  background: #ffffff;
   border: 1px solid #122359;
   border-radius: 50%;
   cursor: pointer;
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
-  height: 3.2em;
+  height: 2.2em;
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
@@ -183,7 +183,7 @@ button {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: 3.2em;
+  width: 2.2em;
   z-index: 1;
 }
 /*# sourceMappingURL=carousel.css.map */
